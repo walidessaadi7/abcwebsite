@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-[#F8FAFC] text-slate-900">
+
+    <nav class="sticky top-0 z-50 bg-white/70 backdrop-blur-xl border-b border-slate-200/50">
+        <div class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center">
+            <div class="text-2xl font-extrabold tracking-tighter text-slate-900">ABCXYZ<span class="text-green-600">.</span>STORE</div>
+            
+            <div class="hidden md:flex space-x-8 font-medium text-slate-600">
+                <a href="#" class="hover:text-green-600 transition-colors">Products</a>
+                <a href="#" class="hover:text-green-600 transition-colors">About</a>
+                <a href="#" class="hover:text-green-600 transition-colors">Collection</a>
+            </div>
+            
+            <button class="bg-slate-900 text-white px-6 py-2.5 rounded-full font-semibold hover:bg-green-600 transition-all shadow-lg hover:shadow-green-500/25">Shop Now</button>
+        </div>
+    </nav>
+    
+    <header class="relative pt-32 pb-40 overflow-hidden">
+        <div class="absolute top-[-10%] right-[-5%] w-[800px] h-[800px] bg-green-100/50 rounded-full blur-[180px] -z-10"></div>
+        <div class="absolute bottom-[-10%] left-[-5%] w-[600px] h-[600px] bg-emerald-50 rounded-full blur-[150px] -z-10"></div>
+    
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col items-center text-center">
+                
+                <div class="inline-flex items-center gap-2 bg-white/70 backdrop-blur-xl px-4 py-1.5 rounded-full text-xs font-bold text-green-800 border border-green-200/50 shadow-sm mb-8 animate-fade-in">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+                    </span>
+                    <span>SEASONAL COLLECTION LIVE</span>
+                </div>
+    
+                <h1 class="text-6xl md:text-6xl font-extrabold tracking-tighter text-slate-950 mb-8 leading-[0.9]">
+                    Everything you need,<br>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-600 via-emerald-500 to-green-700">all in one place.</span>
+                </h1>
+                
+                <p class="text-lg md:text-xl text-slate-600 mb-12 max-w-xl mx-auto leading-relaxed font-medium">
+                    Discover a curated selection of quality items designed for your daily rhythm. Minimalist elegance, delivered to your door.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <button class="group relative bg-slate-900 text-white px-10 py-5 rounded-full font-bold transition-all hover:bg-slate-800 hover:shadow-2xl hover:shadow-slate-900/20 active:scale-95">
+                        View Products
+                        <span class="ml-2 group-hover:translate-x-1 inline-block transition-transform">→</span>
+                    </button>
+                    <button class="px-10 py-5 rounded-full font-bold text-slate-700 border-2 border-slate-200 hover:border-slate-300 hover:bg-slate-50 transition-all active:scale-95">
+                        Visit Store
+                    </button>
+                </div>
+                
+                <div class="mt-16 flex items-center gap-4 text-sm text-slate-400">
+                    <div class="flex -space-x-3">
+                        <div class="w-8 h-8 rounded-full bg-slate-200 border-2 border-white"></div>
+                        <div class="w-8 h-8 rounded-full bg-slate-300 border-2 border-white"></div>
+                        <div class="w-8 h-8 rounded-full bg-slate-400 border-2 border-white"></div>
+                    </div>
+                    <span class="font-semibold">Trusted by 5,000+ professionals worldwide</span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+          <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+            <div class="relative max-w-3xl mx-auto text-center py-12">
+                <span class="inline-flex items-center rounded-full bg-green-50 px-4 py-1 text-sm font-semibold text-green-600 mb-6 border border-green-100 shadow-sm">
+                    <span class="mr-2 h-2 w-2 rounded-full bg-green-600 animate-pulse"></span>
+                    New Arrivals
+                </span>
+            
+                <h2 class="text-6xl md:text-7xl font-extrabold tracking-tighter text-slate-900 mb-6">
+                    Discover Our 
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-600">Premium Collection</span>
+                </h2>
+            
+                <p class="text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
+                    Experience the perfect blend of high-end quality and modern functionality, curated specifically for you.
+                </p>
+            
+                <div class="absolute -top-10 -z-10 left-1/2 -translate-x-1/2 w-72 h-72 bg-green-200 rounded-full blur-[120px] opacity-40"></div>
+            </div>
+            <button class="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">View All Products</button>
+          </div>
+      
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+            <div class="group relative bg-slate-900 rounded-[2rem] p-10 h-[500px] flex flex-col justify-end overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Product" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-[1200ms] ease-out">
+                
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent"></div>
+                
+                <div class="relative z-10">
+                    <span class="inline-block px-3 py-1 bg-green-500/20 backdrop-blur-md text-green-300 rounded-full font-medium text-xs tracking-widest uppercase mb-4 border border-green-500/30">Best Seller</span>
+                    <h3 class="text-4xl font-extrabold text-white tracking-tight">Premium Tech Gear</h3>
+                    <p class="text-slate-300 mt-3 text-lg max-w-sm">Experience the ultimate performance with our latest edition, built for true professionals.</p>
+                </div>
+            </div>
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="group relative bg-white rounded-[2rem] p-6 border border-slate-100 hover:border-green-200 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-2xl hover:shadow-green-100 transition-all duration-500">
+    
+                    <div class="relative h-48 bg-slate-50 rounded-[1.5rem] mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-900 border border-white/20 shadow-sm">
+                            Premium
+                        </div>
+                    </div>
+                
+                    <h4 class="text-2xl font-bold text-slate-900 group-hover:text-green-600 transition-colors">Smart Audio</h4>
+                    <p class="text-slate-500 mt-2 text-sm leading-relaxed">Crystal clear, deep bass sound quality for every ear.</p>
+                
+                    <div class="mt-6 pt-6 border-t border-slate-100 flex items-center justify-between opacity-100 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-xs font-semibold text-slate-400">Available Now</span>
+                        <button class="flex items-center gap-1 text-sm font-bold text-green-600 hover:translate-x-1 transition-transform">
+                            Details <span>→</span>
+                        </button>
+                    </div>
+                </div>
+        
+                <div class="group relative bg-white rounded-[2rem] p-6 border border-slate-100 hover:border-green-200 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-2xl hover:shadow-green-100 transition-all duration-500">
+    
+                    <div class="relative h-48 bg-slate-50 rounded-[1.5rem] mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-900 border border-white/20 shadow-sm">
+                            Durable
+                        </div>
+                    </div>
+                
+                    <h4 class="text-2xl font-bold text-slate-900 group-hover:text-green-600 transition-colors">Essential Gear</h4>
+                    <p class="text-slate-500 mt-2 text-sm leading-relaxed">Built to last a lifetime, designed for daily endurance.</p>
+                
+                    <div class="mt-6 pt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-slate-400">In Stock</span>
+                        <button class="flex items-center gap-1 text-sm font-bold text-green-600 hover:translate-x-1 transition-transform">
+                            Details <span>→</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+         
+      
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            
+            <div class="group relative bg-slate-900 rounded-[2rem] p-10 h-[500px] flex flex-col justify-end overflow-hidden shadow-2xl">
+                <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" alt="Product" class="absolute inset-0 w-full h-full object-cover opacity-50 group-hover:scale-110 transition-transform duration-[1200ms] ease-out">
+                
+                <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-900/20 to-transparent"></div>
+                
+                <div class="relative z-10">
+                    <span class="inline-block px-3 py-1 bg-green-500/20 backdrop-blur-md text-green-300 rounded-full font-medium text-xs tracking-widest uppercase mb-4 border border-green-500/30">Best Seller</span>
+                    <h3 class="text-4xl font-extrabold text-white tracking-tight">Premium Tech Gear</h3>
+                    <p class="text-slate-300 mt-3 text-lg max-w-sm">Experience the ultimate performance with our latest edition, built for true professionals.</p>
+                </div>
+            </div>
+        
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <div class="group relative bg-white rounded-[2rem] p-6 border border-slate-100 hover:border-green-200 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-2xl hover:shadow-green-100 transition-all duration-500">
+    
+                    <div class="relative h-48 bg-slate-50 rounded-[1.5rem] mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-900 border border-white/20 shadow-sm">
+                            Premium
+                        </div>
+                    </div>
+                
+                    <h4 class="text-2xl font-bold text-slate-900 group-hover:text-green-600 transition-colors">Smart Audio</h4>
+                    <p class="text-slate-500 mt-2 text-sm leading-relaxed">Crystal clear, deep bass sound quality for every ear.</p>
+                
+                    <div class="mt-6 pt-6 border-t border-slate-100 flex items-center justify-between opacity-100 group-hover:opacity-100 transition-opacity duration-300">
+                        <span class="text-xs font-semibold text-slate-400">Available Now</span>
+                        <button class="flex items-center gap-1 text-sm font-bold text-green-600 hover:translate-x-1 transition-transform">
+                            Details <span>→</span>
+                        </button>
+                    </div>
+                </div>
+        
+                <div class="group relative bg-white rounded-[2rem] p-6 border border-slate-100 hover:border-green-200 shadow-[0_8px_30px_rgb(0,0,0,0.04)] hover:shadow-2xl hover:shadow-green-100 transition-all duration-500">
+    
+                    <div class="relative h-48 bg-slate-50 rounded-[1.5rem] mb-6 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700">
+                        
+                        <div class="absolute top-4 left-4 bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-[10px] font-bold uppercase tracking-widest text-slate-900 border border-white/20 shadow-sm">
+                            Durable
+                        </div>
+                    </div>
+                
+                    <h4 class="text-2xl font-bold text-slate-900 group-hover:text-green-600 transition-colors">Essential Gear</h4>
+                    <p class="text-slate-500 mt-2 text-sm leading-relaxed">Built to last a lifetime, designed for daily endurance.</p>
+                
+                    <div class="mt-6 pt-6 border-t border-slate-100 flex items-center justify-between">
+                        <span class="text-xs font-semibold text-slate-400">In Stock</span>
+                        <button class="flex items-center gap-1 text-sm font-bold text-green-600 hover:translate-x-1 transition-transform">
+                            Details <span>→</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
+            <div class="relative max-w-3xl mx-auto text-center py-12">
+                <span class="inline-flex items-center rounded-full bg-green-50 px-4 py-1 text-sm font-semibold text-green-600 mb-6 border border-green-100 shadow-sm">
+                    <span class="mr-2 h-2 w-2 rounded-full bg-green-600 animate-pulse"></span>
+                    New Arrivals
+                </span>
+            
+                <h2 class="text-6xl md:text-7xl font-extrabold tracking-tighter text-slate-900 mb-6">
+                    Discover Our 
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-green-600 to-green-600">Premium Collection</span>
+                </h2>
+            
+                <p class="text-xl text-slate-500 leading-relaxed max-w-2xl mx-auto">
+                    Experience the perfect blend of high-end quality and modern functionality, curated specifically for you.
+                </p>
+            
+                <div class="absolute -top-10 -z-10 left-1/2 -translate-x-1/2 w-72 h-72 bg-green-200 rounded-full blur-[120px] opacity-40"></div>
+            </div>
+            <button class="bg-green-600 text-white px-8 py-3 rounded-full font-bold hover:bg-green-700 transition">View All Products</button>
+          </div>
+        </div>
+    </section>
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="mb-20">
+                <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 border-b border-slate-200 pb-10">
+                    <div class="space-y-4">
+                        <div class="inline-flex items-center gap-2">
+                            <span class="w-8 h-[2px] bg-green-600"></span>
+                            <span class="text-green-600 font-bold tracking-widest uppercase text-[11px]">Curated Selection</span>
+                        </div>
+                        <h2 class="text-5xl md:text-6xl font-extrabold text-slate-900 tracking-tighter">
+                            Explore Our <br> <span class="text-green-600">Premium Collections</span>
+                        </h2>
+                    </div>
+            
+                    <p class="text-slate-500 max-w-sm leading-relaxed">
+                        Discover a fusion of precision engineering and modern aesthetics, crafted for those who value detail.
+                    </p>
+                </div>
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <a href="#" class="group relative block h-[450px] rounded-[2rem] overflow-hidden shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e" 
+                         alt="Precision Gear" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1200ms] ease-out">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
+                    <div class="absolute bottom-10 left-10">
+                        <span class="text-green-400 font-bold tracking-widest uppercase text-[10px]">Lifestyle</span>
+                        <h3 class="text-3xl font-bold text-white mt-1">Essential Gear</h3>
+                    </div>
+                </a>
+    
+                <a href="#" class="group relative block h-[450px] rounded-[2rem] overflow-hidden shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30" 
+                         alt="Barista Tools" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1200ms] ease-out">
+                    
+                    <div class="absolute bottom-10 left-10">
+                        <span class="text-green-400 font-bold tracking-widest uppercase text-[10px]"></span>
+                        <h3 class="text-3xl font-bold text-white mt-1">Smart Audio</h3>
+                    </div>
+                </a>
+    
+                <a href="#" class="group relative block h-[450px] rounded-[2rem] overflow-hidden shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=800&auto=format&fit=crop" 
+                         alt="Accessories" 
+                         class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-[1200ms] ease-out">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 to-transparent"></div>
+                    <div class="absolute bottom-10 left-10">
+                        <span class="text-green-400 font-bold tracking-widest uppercase text-[10px]">Luxury</span>
+                        <h3 class="text-3xl font-bold text-white mt-1">Accessories</h3>
+                    </div>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    <section class="py-24 bg-slate-50">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                
+                <div class="relative">
+                    <div class="absolute -top-6 -left-6 w-72 h-72 bg-green-200 rounded-full blur-3xl opacity-30"></div>
+                    <img src="https://images.unsplash.com/photo-1552664730-d307ca884978" alt="Our Team" class="relative z-10 rounded-[2rem] shadow-2xl">
+                    <div class="absolute -bottom-10 -right-10 bg-white p-8 rounded-[2rem] shadow-xl z-20 border border-slate-100">
+                        <div class="text-4xl font-extrabold text-green-600">10+</div>
+                        <div class="text-slate-600 font-medium">Years of Expertise</div>
+                    </div>
+                </div>
+    
+                <div>
+                    <span class="inline-block px-4 py-1 mb-6 text-sm font-semibold text-green-600 bg-green-50 rounded-full border border-green-100">About Us</span>
+                    <h2 class="text-5xl font-extrabold tracking-tighter text-slate-900 mb-8">
+                        Crafting Excellence <br> 
+                        <span class="text-green-600">Since 2016.</span>
+                    </h2>
+                    <p class="text-lg text-slate-500 leading-relaxed mb-8">
+                        We believe in the harmony of form and function. Our mission is to provide premium products that aren't just tools, but extensions of your personal style and professional ambition. Every piece is vetted for quality, durability, and elegance.
+                    </p>
+                    
+                    <ul class="space-y-4">
+                        <li class="flex items-center gap-3">
+                            <div class="p-1 bg-green-100 rounded-full text-green-600">✓</div>
+                            <span class="text-slate-700 font-medium">Curated Premium Selection</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="p-1 bg-green-100 rounded-full text-green-600">✓</div>
+                            <span class="text-slate-700 font-medium">Quality-First Procurement</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <div class="p-1 bg-green-100 rounded-full text-green-600">✓</div>
+                            <span class="text-slate-700 font-medium">Dedicated Customer Support</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <span class="text-green-600 font-bold tracking-widest uppercase text-xs">Our Community</span>
+                <h2 class="text-5xl font-extrabold text-slate-900 mt-4 tracking-tighter">Loved by Connoisseurs</h2>
+                <p class="text-slate-500 mt-4 text-lg">See why professionals choose our premium collection.</p>
+            </div>
+    
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <div class="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:border-green-100 transition-all hover:shadow-2xl hover:shadow-green-50/50">
+                    <div class="flex gap-1 text-amber-400 mb-6">
+                        ★★★★★
+                    </div>
+                    <p class="text-slate-600 leading-relaxed mb-8 italic">"The tactile feel and precision of these lighters is unmatched. A true masterpiece for daily carry."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
+                            <img src="https://i.pravatar.cc/100?u=1" alt="User">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Alex Rivers</h4>
+                            <p class="text-[10px] text-green-600 font-bold uppercase tracking-widest">Product Designer</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:border-green-100 transition-all hover:shadow-2xl hover:shadow-green-50/50">
+                    <div class="flex gap-1 text-amber-400 mb-6">
+                        ★★★★★
+                    </div>
+                    <p class="text-slate-600 leading-relaxed mb-8 italic">"Finally found a brand that balances minimalist aesthetics with extreme durability. Highly recommended."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
+                            <img src="https://i.pravatar.cc/100?u=2" alt="User">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Sarah Chen</h4>
+                            <p class="text-[10px] text-green-600 font-bold uppercase tracking-widest">Entrepreneur</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="bg-white p-8 rounded-[2rem] border border-slate-100 shadow-[0_4px_20px_rgb(0,0,0,0.03)] hover:border-green-100 transition-all hover:shadow-2xl hover:shadow-green-50/50">
+                    <div class="flex gap-1 text-amber-400 mb-6">
+                        ★★★★★
+                    </div>
+                    <p class="text-slate-600 leading-relaxed mb-8 italic">"The build quality is exceptional. You can tell they put real thought into the engineering."</p>
+                    <div class="flex items-center gap-4">
+                        <div class="w-12 h-12 rounded-full bg-slate-100 overflow-hidden border border-slate-200">
+                            <img src="https://i.pravatar.cc/100?u=3" alt="User">
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-900">Mark Thompson</h4>
+                            <p class="text-[10px] text-green-600 font-bold uppercase tracking-widest">Tech Lead</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-white border-t border-slate-100 pt-24 pb-12">
+        <div class="max-w-7xl mx-auto px-6">
+            
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+                <div class="col-span-1 md:col-span-2">
+                    <div class="text-3xl font-extrabold tracking-tighter mb-6 text-green-600">ABCXYZ<span class="text-blue-600">.</span>STORE</div>
+                    <p class="text-slate-500 max-w-sm leading-relaxed mb-8">
+                        Elevating your daily experience with precision-engineered products. Built for those who demand excellence in every detail.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-900 hover:bg-green-600 hover:text-white transition-all">IG</a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-900 hover:bg-green-600 hover:text-white transition-all">TW</a>
+                        <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-slate-100 text-slate-900 hover:bg-green-600 hover:text-white transition-all">LN</a>
+                    </div>
+                </div>
+    
+                <div>
+                    <h5 class="font-bold mb-6 text-slate-900 uppercase tracking-widest text-xs">Navigation</h5>
+                    <ul class="space-y-4 text-slate-500">
+                        <li><a href="#" class="hover:text-green-600 transition-colors">Collections</a></li>
+                        <li><a href="#" class="hover:text-green-600 transition-colors">Journal</a></li>
+                    </ul>
+                </div>
+    
+                <div>
+                    <h5 class="font-bold mb-6 text-slate-900 uppercase tracking-widest text-xs">Support</h5>
+                    <ul class="space-y-4 text-slate-500">
+                        <li><a href="#" class="hover:text-green-600 transition-colors">FAQ</a></li>
+                        <li><a href="#" class="hover:text-green-600 transition-colors">Shipping</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="border-t border-slate-100 pt-12 flex flex-col md:flex-row justify-between items-center gap-6 text-slate-400 text-sm">
+                <p>&copy; 2026 ABCXYZ Store. All rights reserved.</p>
+                <div class="flex gap-8">
+                    <a href="#" class="hover:text-green-600 transition-colors">Privacy Policy</a>
+                    <a href="#" class="hover:text-green-600 transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+  
+
+  
+    
+
+</body>
+</html>
